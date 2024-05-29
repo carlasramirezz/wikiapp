@@ -1,0 +1,32 @@
+---
+title: Wikiapp Docs
+---
+
+Welcome to the documentation for Wikiapp!
+
+This library will let you get random Wikipedia page excerpts in any language.
+
+```bash
+wikiapp/notebooks on  main [!+?] via ⨁ v1.4.550 via 🅒 wikiapp:dev 
+❯ pixi run program
+✨ Pixi task (program in default): python wikiapp/console.py
+2010 AFC Futsal Championship
+The 2010 AFC Futsal Championship was held in Tashkent, Uzbekistan from
+23 to 30 May 2010.
+
+wikiapp/notebooks on  main [!+?] via ⨁ v1.4.550 via 🅒 wikiapp:dev took 2s 
+❯ pixi run program --language fr
+✨ Pixi task (program in default): python wikiapp/console.py --language fr
+Route 247 (Québec)
+La route 247 (R-247) est une route régionale québécoise située sur la
+rive sud du fleuve Saint-Laurent. Elle dessert la région
+administrative de l'Estrie.
+
+wikiapp/notebooks on  main [!+?] via ⨁ v1.4.550 via 🅒 wikiapp:dev 
+❯ pixi run program -l es
+✨ Pixi task (program in default): python wikiapp/console.py -l es
+Miguel Ángel Losada
+Miguel Ángel Losada Rodríguez fue un ingeniero civil español,
+catedrático de Ingeniería Civil de la Universidad de Granada. Premio
+Nacional de Ingeniería Civil en 2018.
+```

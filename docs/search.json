@@ -1,0 +1,42 @@
+[
+  {
+    "objectID": "wikipedia.html",
+    "href": "wikipedia.html",
+    "title": "Wikipedia Module",
+    "section": "",
+    "text": "from wikiapp.wikipedia import random_page, Page\nfrom nbdev import show_doc",
+    "crumbs": [
+      "Wikipedia Module"
+    ]
+  },
+  {
+    "objectID": "wikipedia.html#examples",
+    "href": "wikipedia.html#examples",
+    "title": "Wikipedia Module",
+    "section": "Examples",
+    "text": "Examples\n\npage = random_page()\nprint(\"TITLE\", page.title)\nprint(\"EXTRACT\", page.extract)\n\nTITLE Jadwiga Szoszler-Wilejto\nEXTRACT Jadwiga Szoszler-Wilejto is a former Polish female Archer. She represented Poland at the Olympics on three occasions.\n\n\nIf you do this again, you will get another random page.\n\npage = random_page()\nprint(\"TITLE\", page.title)\nprint(\"EXTRACT\", page.extract)\n\nTITLE Kaye Hall\nEXTRACT Kaye Marie Hall, later known by her married name Kaye Greff, is an American former competition swimmer, two-time Olympic champion, and former world record-holder in two events.\n\n\nYou can change the language you want\n\npage = random_page(language=\"fr\")\nprint(\"TITLE\", page.title)\nprint(\"EXTRACT\", page.extract)\n\nTITLE Sam Altman\nEXTRACT Sam Altman est un homme d'affaires américain né le 22 avril 1985 à Chicago. Il est cofondateur avec Elon Musk de l'organisation à but lucratif plafonné OpenAI, dont il est le directeur général. En novembre 2023, son limogeage provoque une crise au sein de la société, il est alors réintégré à son poste cinq jours plus tard par un conseil d'administration remanié.\n\n\n\npage = random_page(language=\"es\")\nprint(\"TITLE\", page.title)\nprint(\"EXTRACT\", page.extract)\n\nTITLE Russ Giguere\nEXTRACT Russell Giguere es un músico estadounidense, ampliamente conocido por su trabajo en The Association.",
+    "crumbs": [
+      "Wikipedia Module"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Wikiapp Docs",
+    "section": "",
+    "text": "Welcome to the documentation for Wikiapp!\nThis library will let you get random Wikipedia page excerpts in any language.\nwikiapp/notebooks on  main [!+?] via ⨁ v1.4.550 via 🅒 wikiapp:dev \n❯ pixi run program\n✨ Pixi task (program in default): python wikiapp/console.py\n2010 AFC Futsal Championship\nThe 2010 AFC Futsal Championship was held in Tashkent, Uzbekistan from\n23 to 30 May 2010.\n\nwikiapp/notebooks on  main [!+?] via ⨁ v1.4.550 via 🅒 wikiapp:dev took 2s \n❯ pixi run program --language fr\n✨ Pixi task (program in default): python wikiapp/console.py --language fr\nRoute 247 (Québec)\nLa route 247 (R-247) est une route régionale québécoise située sur la\nrive sud du fleuve Saint-Laurent. Elle dessert la région\nadministrative de l'Estrie.\n\nwikiapp/notebooks on  main [!+?] via ⨁ v1.4.550 via 🅒 wikiapp:dev \n❯ pixi run program -l es\n✨ Pixi task (program in default): python wikiapp/console.py -l es\nMiguel Ángel Losada\nMiguel Ángel Losada Rodríguez fue un ingeniero civil español,\ncatedrático de Ingeniería Civil de la Universidad de Granada. Premio\nNacional de Ingeniería Civil en 2018.",
+    "crumbs": [
+      "Wikiapp Docs"
+    ]
+  },
+  {
+    "objectID": "console.html",
+    "href": "console.html",
+    "title": "Console Module",
+    "section": "",
+    "text": "from wikiapp.console import main\n\n\nfrom nbdev import show_doc\n\n\n\n\n\n &lt;Command main&gt; (*args:Any, **kwargs:Any)\n\n*This is the console interface to random page function in wikipedia.py.\nIt comes with cool colors!*",
+    "crumbs": [
+      "Console Module"
+    ]
+  }
+]

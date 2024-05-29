@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "wikiapp"
+  site-url: "https://carlasramirezz.github.io/wikiapp"
+  description: "Get Random Wikipedia Pages"
+  repo-branch: main
+  repo-url: "https://github.com/carlasramirezz/wikiapp"
