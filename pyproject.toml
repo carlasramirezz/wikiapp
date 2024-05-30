@@ -73,6 +73,9 @@ typing = "mypy ."
 quarto = ">=1.4.550,<1.5"
 jupyterlab = ">=1.0.10,<4.3"
 
+[tool.pixi.feature.docs.tasks]
+docs = "mkdir -p docs; cd notebooks; nbdev_docs; cp -r _docs/* ../docs/; cd .."
+
 [tool.pixi.environments]
 default = { solve-group = "default" } # includes ['default']
 test = { features = ["test"], solve-group = "default" } # ['default, 'test']
